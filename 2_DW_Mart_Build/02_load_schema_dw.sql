@@ -47,7 +47,7 @@ SELECT 'skills_job_dim', COUNT(*) FROM skills_job_dim;
 SELECT '=== Company Dimension Sample ===' AS info;
 SELECT * FROM company_dim LIMIT 5;
 
-SELECT '=== Company Dimension Sample ===' AS info;
+SELECT '=== Skills Dimension Sample ===' AS info;
 SELECT * FROM skills_dim LIMIT 5;
 
 SELECT '=== Job Postings Fact Sample ===' AS info;
