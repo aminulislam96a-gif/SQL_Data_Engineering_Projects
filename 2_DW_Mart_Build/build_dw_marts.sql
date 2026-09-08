@@ -1,5 +1,5 @@
 
---duckdb dw_marts.duckdb -c ".read build_marts.sql"
+--duckdb dw_marts.duckdb -c ".read build_dw_marts.sql"
 
 
 -- Step 1: DW -Create star schema tables.
@@ -16,5 +16,9 @@
 
 -- Step 05: Mart - Create priority roles mart
 .read 05_create_priority_mart.sql
+
 -- Step 06: Mart - Update priority roles mart
 .read 06_update_priority_mart.sql
+
+--Step 07: Mart - Create Company Mart
+.read 07_create_company_mart.sql
