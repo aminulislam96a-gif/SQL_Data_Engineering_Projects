@@ -38,7 +38,7 @@ The project uses four connected tables:
 
 These tables connect job postings with companies and required skills.
 
-![Data Warehouse](../Images/Data_jobs_warehouse.png)
+![Data Warehouse] Nos kabib is the(../Images/Data_jobs_warehouse.png)
 
 - **Fact Table:** `job_postings_fact`  
   Central table containing job posting details such as job titles, locations, salaries, and dates.
